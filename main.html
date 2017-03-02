@@ -1,0 +1,178 @@
+<html xmlns:style="http://www.w3.org/1999/xhtml">
+    <head>
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style type="text/css">
+
+        h1{
+    text-align:center;
+    background:#0B3A67;
+    color:white;
+    font-family:"Times New Roman";
+    }
+    li{
+    display:inline-block;
+
+    }
+    ul{
+    list-style-type:none;
+    }
+    a{
+    margin:5px 20px;
+    text-decoration:none;
+    color:#0B3A67;
+    }
+    ul{
+    text-align:center;
+    background:white;
+    padding:7px;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                     0px -5px 35px rgba(255,255,255,0.3);
+    }
+    td{
+    color: white;
+    }
+    </style>
+    </head>
+ <body>
+ <div>
+    <img src = "logo.jpg">
+        <h1 style="text-align: center">Student</h1>
+            <h4 style="text-align: center" > Developed by: Shezan Mahmud. </h4>
+            <ul >
+            <li><a href="main.html" title="Home Page">REGISTERATION</a></li>
+           </ul>
+    <form align = "center">
+        <table align = "center">
+            <tr>
+              <td>  Select image to upload:</td>
+                <td> <input type="file" name="fileToUpload" id="fileToUpload"></td>
+                <td> <input type="submit" value="Upload Image" name="submit"></td>
+            </tr>
+        </table>
+    </form>
+
+    <form method="POST">
+     <table align="center">
+           <tr>
+                <td>Fast Name:</td>
+                <td><input type="text" name="Fast Name"></td>
+                <td>Last name:</td>
+                <td><input type="text" name="Last Name"></td>
+           </tr>
+
+           <td>Program:</td>
+           <td>
+               <select name="program" value="Select Program">
+                    <option selected="selected" value="default">-select program-</option>
+                    <option value="sandwich">Bsc</option>
+                    <option value="BSC">BBA</option>
+                    <option value="PGD">BA</option>
+                    <option value="Masters">Masters</option>
+                    <option value="Phd">Phd</option>
+               </select>
+           </td>
+
+           <tr>
+            <td>Department:</td>
+            <td>
+                <select name="department" value="Select department">
+                    <option selected="selected" value="default">-select Department-</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Computer Science & Engineering ">Computer Science & Engineering</option>
+                    <option value="Electrical engineering">Electrical engineering</option>
+                </select>
+             </td>
+            </tr>
+
+       <td>Faculty:</td>
+       <td>
+           <select name="Facuty">
+                 <option selected = "selected" value="deafult">-Select Faculty-</option>
+                 <option value="Engineering">Engineering</option>
+                 <option value="Science">Science</option>
+                 <option value="Managment">Managment</option>
+                 <option value="Art">Art</option>
+                 <option value="Medicine">Medicine</option>
+           </select>
+       </td>
+
+   <tr>
+        <td>City:</td>
+        <td>
+            <select name="State">
+                <option selected="selected">-Select Divition-</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittogong</option>
+                <option value="Barisal">Barisal</option>
+                <option value="Sylet">Sylet</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Rangpur">Rangpur</option>
+                <option value="Moynamoti">Moynamoti</option>
+            </select>
+
+     <td>Nationality:</td>
+      <td>
+          <select name= "Country">
+            <option selected="selected">-Select Country-</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="India">India<ption>
+            <option value="Srilanka">Srilanka</option>
+            <option value="Pakistan">Pakistan</option>
+          </select>
+      </td>
+        </tr>
+     <tr>
+        <td>Date of Birth (YYYY-MM-DD)</td>
+        <td><input type="text" name="dob"></td>
+        <td>Place Of Birth:</td>
+        <td><input type="text" name="pob"></td>
+     </tr>
+
+     <tr>
+        <td>Gender:</td>
+        <td>
+            <select name="gender">
+                <option selected="selected">Select Sex</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+
+         <td>Email:</td>
+        <td><input type="text" name="email"></td>
+     </tr>
+
+     <tr>
+        <td>Marrital Status:</td>
+        <td>
+            <select name="Maritalstatus">
+                <option selected="selected">-Select Marital Status-</option>
+                <option value="single">Single</option>
+                <option value="Married">Married</option>
+            </select>
+        </td>
+
+
+      <td>Religion:</td>
+
+      <td>
+         <select name="Religion">
+             <option selected="selected" value="default">-Select Religion-</option>
+             <option value="muslim">Muslim</option>
+             <option value="Hindu">Hindu</option>
+         </select>
+      </td>
+     </tr>
+
+      <tr style: align="center">
+          <td><input type="submit" name="submit" value="Submit"></td>
+          <td><input type="Reset" name="Reset"value="Clear"></td>
+      </tr>
+    </table>
+   </form>
+  </div>
+ </body>
+</html>
